@@ -7,7 +7,7 @@ export default function NewTable({ loadDashboard }) {
     const [error, setError] = useState([]);
     const [formData, setFormData] = useState({
         table_name: "",
-        capacity: 1,
+        capacity: 0,
         });
 
     function validateFields() {
